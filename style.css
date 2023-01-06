@@ -1,0 +1,9 @@
+body {
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: space-around;
+	background-color: #1F2937;
+	font-size: 18px;
+}
