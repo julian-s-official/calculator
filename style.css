@@ -9,12 +9,64 @@ body {
 
 #calculator {
 	display: flex;
-	border-radius: 5px;
 	flex-direction: column;
+	height: 50vh;
+	width: 35vh;
 	border-style: solid;
 	border-radius: 20px;
-	border-color: rgb(78, 25, 16);
-	border-width: 4px;
-	height: 60vh;
-	width: 60vh;
+	border-color: rgb(26, 9, 6);
+	border-width: 3px;
+	background-color: rgb(112, 146, 255);
+}
+
+#display {
+	border-style: solid;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	height: 12vh;
+	width: 30vh;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: rgb(26, 9, 6);
+	background-color: rgb(220, 227, 255);
+	margin: 2vh 2vh 0vh 2vh;
+}
+
+#displaytext {
+	font-size: 3em;
+	margin-right: 1vh;
+	margin-top: 6vh;
+}
+
+#cleardelete {
+	display: flex;
+	justify-content: space-between;
+	height: 5vh;
+	width: 30vh;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: rgb(26, 9, 6);
+	margin: 2vh;
+	
+}
+
+#clear {
+	width: 14vh;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: rgb(26, 9, 6);
+	font-size: 1.5em;
+	background-color:rgb(232, 142, 255)
+}
+
+#delete {
+	width: 14vh;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 3px;
+	border-color: rgb(26, 9, 6);
+	font-size: 1.5em;
+	background-color: rgb(90, 127, 250);
 }
