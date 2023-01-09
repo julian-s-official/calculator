@@ -1,3 +1,16 @@
+let nbr1 = "";
+let nbr2 = "";
+let operator = "";
+let operated = true;
+
+const buttons = document.querySelectorAll('button');
+
+buttons.forEach((button) => {
+  button.addEventListener('click', () => {
+    input(button.id);
+  });
+});
+
 function add(first, second) {
   return +first + +second;
 }
@@ -39,19 +52,6 @@ function update(number) {
 function concat(a, b) {
   return "" + a + b;
 }
-
-let nbr1 = "";
-let nbr2 = "";
-let operator = "";
-let operated = true;
-
-const buttons = document.querySelectorAll('button');
-
-buttons.forEach((button) => {
-  button.addEventListener('click', () => {
-    input(button.id);
-  });
-});
 
 function input(btn) {
   switch(btn) {
